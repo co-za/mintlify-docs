@@ -1,0 +1,176 @@
+---
+title: "Creating Your First Document"
+description: "A step-by-step guide to uploading and configuring a document in Policy Passport."
+icon: "file-plus"
+---
+
+Creating a document in Policy Passport is done through a guided multi-step wizard. This article walks you through each step so you can get your first document published with confidence.
+
+## Before you start
+
+Make sure you have administrator access to your Policy Passport dashboard. If you can't see the **Files** section in the sidebar, contact your account owner to check your permissions.
+
+---
+
+## Step 1: Name your document
+
+<Steps>
+  <Step title="Open the Files section">
+    From your admin dashboard, click **Files** in the left sidebar, then click **New File** in the top-right corner.
+  </Step>
+  <Step title="Enter a document name">
+    Type a descriptive name for your document in the text field. The name appears in the preview panel on the left as you type.
+
+    <Note>
+      The **Next** button stays disabled until you enter a name. The name can be changed later from the document settings.
+    </Note>
+  </Step>
+  <Step title="Click Next">
+    Once you've entered a name, click **Next** to move on to content type selection.
+  </Step>
+</Steps>
+
+---
+
+## Step 2: Choose a content type
+
+Policy Passport supports five content types. Select the one that matches your document:
+
+<CardGroup cols={2}>
+  <Card title="File Upload" icon="file-pdf">
+    Upload a **PDF** directly. Ideal for policies, procedures, and formal documents. Max file size: 25 MB.
+  </Card>
+  <Card title="Video" icon="circle-play">
+    Embed a **YouTube or Vimeo** video. Great for training or explainer content.
+  </Card>
+  <Card title="Text" icon="pen-to-square">
+    Compose content directly in Policy Passport using a rich text editor. Good for internal notes and policies you want to write from scratch.
+  </Card>
+  <Card title="Link" icon="link">
+    Link to an external public URL. Useful for pointing users to a webpage or shared document.
+  </Card>
+</CardGroup>
+
+<Info>
+  If your organisation has Employment Equity (EE) verification enabled, you'll also see an **EE Verification** option.
+</Info>
+
+### Uploading a PDF
+
+Drag and drop your PDF onto the upload area, or click to browse for a file. A progress bar shows the upload status. Once the upload is complete, the **Next** button appears.
+
+### Embedding a video
+
+Select your video provider (**YouTube** or **Vimeo**), then paste the video ID or URL into the embed token field. A live preview of the video appears once a valid token is detected.
+
+### Writing text content
+
+Use the built-in Quill rich text editor to compose your content. Toggle between **Edit** and **Preview** modes using the button above the editor. Click **Save** before proceeding.
+
+### Adding a link
+
+Paste the full URL (including `https://`) into the URL field, then click **Next**.
+
+---
+
+## Step 3: Version and priority settings
+
+This step captures metadata that controls how the document is managed and displayed.
+
+| Field | Required | Description |
+|---|---|---|
+| **File Version** | Yes | A version label (e.g. `1.0`, `2024-01`). Required before the document can be published. |
+| **Category** | No | Assign the document to an existing category for organisation. |
+| **Days to Complete** | No | Set a deadline (in days) for users to read and complete the document. |
+| **Disable Download and Printing** | No | When checked, users can only view the document inside Policy Passport. |
+| **Do Not Embed PDF** | No | Shows a download link instead of displaying the PDF inline (PDF uploads only). |
+| **Lock Document** | No | Prevents other administrators from editing the document. |
+
+<Tip>
+  The **File Version** field is the only required field in this step. You won't be able to publish the document without it.
+</Tip>
+
+Click **Next** once you're happy with your settings.
+
+---
+
+## Step 4: Notes and review details
+
+This step lets you add an internal note and set optional review and compliance metadata.
+
+<AccordionGroup>
+  <Accordion title="Display Note">
+    Check **Display Note?** to add a note that users see before they read the document. This is useful for calling out important context or caveats.
+  </Accordion>
+  <Accordion title="Administrative Review Date">
+    Set a date to remind yourself (or other admins) when this document is due for internal review. You can also enable **Advanced Reminders** to receive email nudges at 90, 60, 30, and 7 days before the review date, and then daily until actioned.
+  </Accordion>
+  <Accordion title="Document Owner / Approved By / Date Approved">
+    Optional fields to record who owns the document, who approved it, and when it was approved. These details are visible to administrators.
+  </Accordion>
+  <Accordion title="CPD Details">
+    If your organisation uses Continuing Professional Development (CPD) tracking, fill in all five CPD fields: **Name**, **Points**, **Hours**, **Accreditation Number**, and **Accreditation Body**. These fields work as a set — if you fill in one, you must fill in all of them.
+  </Accordion>
+</AccordionGroup>
+
+Click **Next** to continue.
+
+---
+
+## Step 5: Add a test (optional)
+
+You can attach a quiz to your document to verify that users have understood the content.
+
+<Steps>
+  <Step title="Enable testing">
+    Select **Yes** to create a test, or **No** to skip this step.
+  </Step>
+  <Step title="Set the number of questions">
+    Enter how many questions users must answer. This sets the minimum — you can add more questions than this number and Policy Passport will randomly select from them.
+  </Step>
+  <Step title="Add your questions">
+    After clicking **Next**, you'll be taken to the question builder where you can write each question and its answer options.
+
+    <Tip>
+      If your document is a PDF upload and your organisation has AI question generation enabled, you can click **Generate Questions Automatically** to have Policy Passport suggest questions based on the document content.
+    </Tip>
+  </Step>
+</Steps>
+
+---
+
+## Step 6: Acknowledgement and feedback (optional)
+
+<Steps>
+  <Step title="Require feedback">
+    Check **Feedback Required Upon Completion?** and enter an instruction prompt (e.g. *"Do you have any questions about this policy?"*). Users will see this prompt and can submit a free-text response after reading the document.
+  </Step>
+  <Step title="Require acknowledgement">
+    Check **Acknowledgement Required Upon Completion?** to present users with a sign-off statement when they finish the document.
+
+    A default acknowledgement text is provided — you can edit it using the rich text editor to match your organisation's language.
+  </Step>
+  <Step title="Save and finish">
+    Click **Save** to complete the wizard. Your document is now created and ready to be published.
+  </Step>
+</Steps>
+
+---
+
+## What happens next?
+
+Your document is saved in **draft** status. Before users can see it, you need to publish it:
+
+1. Open the document from the **Files** list.
+2. Review the document details on the status page.
+3. Click **Publish** to make the document live for your users.
+
+<Note>
+  If you skipped the **File Version** field earlier, you won't be able to publish. Go back to the document settings and add a version before publishing.
+</Note>
+
+---
+
+## Need help?
+
+If you run into any issues while creating a document, reach out to our support team using the **Support** link in the top navigation.

@@ -1,0 +1,76 @@
+---
+title: "How to sign in"
+description: "Learn how to sign in to Policy Passport using your username, a one-time PIN, or single sign-on."
+---
+
+Policy Passport supports three sign-in methods: **one-time PIN (OTP)**, **password**, and **single sign-on (SSO)**. The method available to you depends on how your organisation has configured its account.
+
+## Step 1: Enter your username
+
+1. Navigate to your organisation's Policy Passport login page.
+2. Enter your **username**, **email address**, or **mobile number** in the field provided.
+3. Click **Next**.
+
+<Note>
+  If your organisation requires you to sign in with your username specifically,
+  entering an email address or mobile number will return an error. Use your
+  username instead.
+</Note>
+
+## Step 2: Complete sign-in
+
+After clicking **Next**, Policy Passport identifies your account and presents the sign-in method configured for you.
+
+<Tabs>
+  <Tab title="One-time PIN (OTP)">
+    Most users sign in with a one-time PIN sent to their registered **mobile number** or **email address**.
+
+    1. A 6-character code is sent to your mobile or email automatically.
+    2. Enter the code in the field provided.
+    3. Click **Sign in**.
+
+    <Note>
+      Codes are valid for **15 minutes**. The code is automatically uppercased — you don't need to worry about capitalisation.
+    </Note>
+
+    **Didn't receive your code?**
+
+    Wait 30 seconds for the initial delivery attempt to complete. If the code hasn't arrived:
+
+    - Check your **spam, junk, and filtered message folders**.
+    - Click **Click here** to request a new code.
+    - If your account has both a mobile number and email address on file, you can switch delivery method by clicking the alternative **Click here** link.
+  </Tab>
+
+  <Tab title="Password">
+    Some accounts use a traditional password to sign in.
+
+    1. Your username is pre-filled and cannot be changed on this screen. To sign in as a different user, click **Not you?** to return to the previous step.
+    2. Enter your **password**.
+    3. Optionally, tick **Remember me** to stay signed in on this device.
+    4. Click **Log in**.
+
+    **Forgot your password?**
+
+    Click **Forgot password?** and follow the prompts to reset it via email.
+  </Tab>
+
+  <Tab title="Single sign-on (SSO)">
+    If your organisation uses an identity provider (IdP) such as Azure AD, Okta, or Google Workspace, you may be redirected automatically to your company's login page after entering your username.
+
+    Complete authentication through your IdP as normal — you'll be signed in to Policy Passport automatically once your identity is verified.
+
+    Contact your IT administrator if you have trouble with SSO sign-in.
+  </Tab>
+</Tabs>
+
+## Troubleshooting
+
+| Problem | What to do |
+|---|---|
+| "Your username could not be found" | Double-check the username, email, or mobile number you entered. Contact your administrator if you're unsure which to use. |
+| OTP code not received | Wait 30 seconds, check spam folders, then request a new code. |
+| OTP code expired | Codes are valid for 15 minutes. Request a new code and sign in promptly. |
+| Forgot password | Click **Forgot password?** on the password screen to receive a reset link by email. |
+| SSO not working | Contact your IT administrator to check your IdP configuration. |
+| Account locked or inactive | Contact your Policy Passport administrator to have your account reviewed. |

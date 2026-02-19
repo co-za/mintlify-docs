@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Policy Passport Help Articles",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#00717d",
+    "light": "#00717d",
+    "dark": "#00A3B4"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -18,7 +18,14 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "development",
+              "sign-in"
+            ]
+          },
+          {
+            "group": "Documents",
+            "pages": [
+              "documents/create-document"
             ]
           },
           {
@@ -84,8 +91,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/Policy Passport Logo.webp",
+    "dark": "/logo/Policy Passport Logo.webp"
   },
   "navbar": {
     "links": [
