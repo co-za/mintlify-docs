@@ -1,0 +1,238 @@
+---
+title: "Uploading a PDF and Assigning it to Users"
+description: "Learn how to upload a PDF file and assign it to your team through groups in Policy Passport."
+icon: "file-pdf"
+---
+
+This guide walks you through uploading a PDF document and getting it in front of the right people. In Policy Passport, documents are assigned to **groups** — every active user in an assigned group automatically receives the document when it's published.
+
+## Before you start
+
+- You must have **administrator access** to your Policy Passport dashboard. If you can't see the **Files** section in the sidebar, contact your account owner to check your permissions.
+- Your PDF must be **under 25 MB** and saved in `.pdf` format. Other file types are not supported.
+
+---
+
+## Step 1: Start a new file
+
+<Steps>
+  <Step title="Open the Files section">
+    From your admin dashboard, click **Files** in the left sidebar.
+  </Step>
+  <Step title="Create a new file">
+    Click **New File** in the top-right corner. Enter a descriptive name for your document and click **Next**.
+  </Step>
+  <Step title="Select File Upload">
+    On the content type screen, select **File Upload**.
+
+    > *"Use this if you want to upload a file, such as a PDF document."*
+
+    Then click **Next** to proceed to the upload screen.
+  </Step>
+</Steps>
+
+---
+
+## Step 2: Upload your PDF
+
+<Steps>
+  <Step title="Add your file">
+    On the **File Upload** screen, either:
+    - Drag and drop your PDF onto the upload area, or
+    - Click **Choose a file** to browse your computer.
+
+    Only one file can be uploaded per document. Once you select a file, the upload begins automatically.
+  </Step>
+  <Step title="Wait for the upload to complete">
+    A progress bar shows the upload percentage. Once the upload is successful, the filename appears and the **Next** button becomes available.
+
+    <Warning>
+      If the upload fails, check that your file is a valid `.pdf` and is under **25 MB**. Files in other formats (Word, PowerPoint, etc.) will be rejected.
+    </Warning>
+  </Step>
+  <Step title="Click Next">
+    Click **Next** to move on to version and settings.
+  </Step>
+</Steps>
+
+---
+
+## Step 3: Set version and options
+
+This step captures the key metadata for your document.
+
+| Field | Required | Description |
+|---|---|---|
+| **File Version** | Yes | A version label (e.g. `1.0`, `Jan 2025`). Required before the document can be published. |
+| **Category** | No | Assign the document to a category for easier organisation. |
+| **Days to Complete** | No | Set a deadline (in days) for users to read and complete the document after it is assigned. |
+| **Disable Download and Printing** | No | When checked, users can only view the document inside Policy Passport — they cannot save or print a copy. |
+| **Do Not Embed PDF** | No | Shows a download link instead of displaying the PDF inline in the browser. |
+| **Lock Document** | No | Prevents other administrators from editing this document. |
+
+<Tip>
+  **File Version** is the only required field in this step. You will not be able to publish the document without it.
+</Tip>
+
+Click **Next** once you're done.
+
+---
+
+## Step 4: Add notes and review details (optional)
+
+<AccordionGroup>
+  <Accordion title="Display Note">
+    Check **Display Note?** to write a message that users see before they open the document. Use this to highlight important context, changes from a previous version, or actions required.
+  </Accordion>
+  <Accordion title="Administrative Review Date">
+    Set a date to remind yourself when this document is due for review. Enable **Advanced Reminders** to receive email nudges at 90, 60, 30, and 7 days before the review date, and then daily until actioned.
+
+    You can also add **Reminder Subscribers** — other admins who will receive these reminder emails alongside you.
+  </Accordion>
+  <Accordion title="Document Owner / Approved By / Date Approved">
+    Optional fields for recording document ownership and approval history. Visible to administrators only.
+  </Accordion>
+  <Accordion title="CPD Details">
+    If your organisation tracks Continuing Professional Development (CPD), fill in all five fields: **CPD Name**, **CPD Points**, **CPD Hours**, **CPD Accreditation Number**, and **CPD Accreditation Body**. These fields work together — if you fill in one, all five are required.
+  </Accordion>
+</AccordionGroup>
+
+Click **Next** to continue.
+
+---
+
+## Step 5: Add a test (optional)
+
+Attach a quiz to verify that users have understood the document content.
+
+<Steps>
+  <Step title="Choose whether to add a test">
+    Select **Yes** to create a test, or **No** to skip this step entirely.
+  </Step>
+  <Step title="Set the number of questions">
+    Enter how many questions users must answer (between 1 and 10). Policy Passport randomly selects from your full question pool, so you can write more questions than this number.
+  </Step>
+  <Step title="Write your questions">
+    After clicking **Next**, you'll be taken to the question builder to write each question and its multiple-choice answer options.
+
+    <Tip>
+      If your organisation has **AI Question Generation** enabled, click **Generate Questions Automatically** and Policy Passport will analyse your PDF and suggest questions. This typically takes 1–2 minutes for longer documents.
+    </Tip>
+  </Step>
+</Steps>
+
+---
+
+## Step 6: Set acknowledgement and feedback (optional)
+
+<Steps>
+  <Step title="Require an acknowledgement">
+    Check **Acknowledgement Required Upon Completion?** to ask users to sign off once they've read the document. A default acknowledgement statement is pre-filled — edit it to match your organisation's language if needed.
+  </Step>
+  <Step title="Require feedback">
+    Check **Feedback Required Upon Completion?** and enter a prompt (e.g. *"Do you have any questions about this policy?"*). Users will see this prompt and can submit a free-text response after completing the document.
+  </Step>
+  <Step title="Save">
+    Click **Save** to finish the setup wizard. Your document is now created and saved in draft status.
+  </Step>
+</Steps>
+
+---
+
+## Step 7: Assign the document to groups
+
+Documents in Policy Passport are assigned to **groups**, not to individual users. All active users in an assigned group automatically receive the document when it is published.
+
+<Info>
+  It is not possible to assign a document to individual users directly. If you need to assign to a specific person, add them to a group first, then assign the document to that group.
+</Info>
+
+<Steps>
+  <Step title="Open the Groups tab">
+    From your document's status page, click **Assign this file** or navigate to the **Groups** tab.
+  </Step>
+  <Step title="Select your groups">
+    A table lists all available groups with their member count. Check the box next to each group that should receive this document.
+
+    - Click **+ Add new group** if you need to create a new group first.
+    - Click **Manage Groups** to review or edit group membership before assigning.
+  </Step>
+  <Step title="Save your changes">
+    Click **Update** to save the group assignments. The button is disabled until you make a change.
+
+    <Note>
+      Group assignments can only be changed on the **latest version** of a document. Checkboxes are locked on older versions.
+    </Note>
+  </Step>
+</Steps>
+
+---
+
+## Step 8: Publish the document
+
+Publishing makes the document live and automatically creates assignments for all users in the assigned groups.
+
+<Steps>
+  <Step title="Check the status page">
+    Open the document's status page. Policy Passport shows a checklist of everything required before you can publish:
+
+    - **File version set** — required
+    - **File assigned to at least one group** — required
+    - **PDF file uploaded** — required
+
+    Any unmet requirements are highlighted with a warning.
+  </Step>
+  <Step title="Publish">
+    Once all requirements are met, click **Publish Now**. The document goes live immediately.
+
+    When a document is published:
+    - An **assignment** is automatically created for every active user in the assigned groups.
+    - If a previous version of this document exists, it is automatically **archived**.
+    - Users who open the document will be able to read, acknowledge (if required), complete a test (if set), and mark it as done.
+  </Step>
+</Steps>
+
+<Warning>
+  Publishing cannot be undone from this screen. If you need to take a document offline after publishing, use the **Archive** option from the document settings.
+</Warning>
+
+---
+
+## What users see after assignment
+
+Once the document is published and assigned, each user in the selected groups will:
+
+1. See the document appear in their **My Documents** list.
+2. Be able to open and read the PDF inside Policy Passport.
+3. Complete any required test, acknowledgement, or feedback you configured.
+4. Mark the document as **complete** once they've finished.
+
+If you set **Days to Complete**, each user's assignment will show a due date calculated from the date the document was published.
+
+---
+
+## Frequently asked questions
+
+<AccordionGroup>
+  <Accordion title="Can I assign a document to an individual user without a group?">
+    No. Policy Passport assigns documents via groups only. To assign a document to one person, create a group with just that person in it.
+  </Accordion>
+  <Accordion title="What happens if I add a user to a group after publishing?">
+    New users added to an assigned group automatically receive an assignment for all published documents linked to that group. You do not need to republish.
+  </Accordion>
+  <Accordion title="Can I change the assigned groups after publishing?">
+    Yes. Open the **Groups** tab on the document, update your group selection, and click **Update**. Users in newly added groups will receive an assignment immediately.
+  </Accordion>
+  <Accordion title="What if my PDF is over 25 MB?">
+    Compress the PDF using a tool such as Adobe Acrobat, Smallpdf, or ILovePDF before uploading. Alternatively, split it into multiple smaller documents.
+  </Accordion>
+  <Accordion title="Can users download the PDF?">
+    By default, yes. To prevent downloading and printing, check **Disable Download and Printing** in Step 3.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Need help?
+
+If you run into any issues, reach out to our support team using the **Support** link in the top navigation.

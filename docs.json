@@ -25,7 +25,8 @@
           {
             "group": "Documents",
             "pages": [
-              "documents/create-document"
+              "documents/create-document",
+              "documents/upload-pdf"
             ]
           },
           {
